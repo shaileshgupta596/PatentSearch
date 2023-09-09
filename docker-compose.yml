@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: flaskSearchApp
+    restart: always
+    command: python main.py
+    ports:
+      - 5000:5000
