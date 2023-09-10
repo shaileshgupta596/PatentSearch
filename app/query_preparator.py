@@ -76,6 +76,7 @@ def get_prepared_query(keyword):
                                "national_classes.label",
                                "ecla_classes.label",
                                "cpc_classes.label",
+                               "f_term_classes.label"
                                "family_members.ucid",
                                "family_members.titles.text",
                                "legal_status"],
